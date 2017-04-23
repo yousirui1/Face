@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FaceActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.app.ysr.face.ui.FaceView
+            android:id="@+id/opencv_faceview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/face1"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:src="@mipmap/ic_contact_picture" />
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="相似度:"
+            android:textColor="#FF000000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/face2"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:src="@mipmap/ic_contact_picture" />
+
+    </LinearLayout>
+
+    <include layout="@layout/camera_btn_swtich" /> <!-- 顶部控制栏 -->
+
+    <include layout="@layout/camera_btn_capture" /> <!-- 底部控制栏 -->
+
+</RelativeLayout>

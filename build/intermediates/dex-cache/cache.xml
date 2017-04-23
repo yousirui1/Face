@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/yousirui/AndroidStudioProjects/Face/app/libs/javacpp.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08f8b1e3fdcc93a1e9076d6279864d6a46982a85">
+        <dex dex="/Users/yousirui/AndroidStudioProjects/Face/app/build/intermediates/pre-dexed/debug/javacpp_ff65097c41f65e297fa4647aa891c438539d47b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yousirui/AndroidStudioProjects/Face/openCVLibrary310/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bd0b5fe9b86387f76525159583082510338cb1c">
+        <dex dex="/Users/yousirui/AndroidStudioProjects/Face/app/build/intermediates/pre-dexed/debug/classes_e721972be87e890067aebede91babaf9117d577b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yousirui/AndroidStudioProjects/Face/app/libs/javacpp.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08f8b1e3fdcc93a1e9076d6279864d6a46982a85">
+        <dex dex="/Users/yousirui/AndroidStudioProjects/Face/app/build/intermediates/transforms/dex/debug/folders/1000/2/javacpp_ff65097c41f65e297fa4647aa891c438539d47b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yousirui/AndroidStudioProjects/Face/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b39c27a7b66e4814e02f3bdc301999adcd54663f">
+        <dex dex="/Users/yousirui/AndroidStudioProjects/Face/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_21c0200c6b94c8270cf6d0351149343879b64d95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yousirui/AndroidStudioProjects/Face/app/libs/javacv.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1824ed7a180ee32aa57f5632a489c10aad8f1804">
+        <dex dex="/Users/yousirui/AndroidStudioProjects/Face/app/build/intermediates/transforms/dex/debug/folders/1000/2/javacv_b4ff616af96ca1ee9b4772b2d6f68afa9d2dd5c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yousirui/AndroidStudioProjects/Face/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/yousirui/AndroidStudioProjects/Face/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_de5d1eafeb1d980c41ee18bf8a682019243b95ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yousirui/AndroidStudioProjects/Face/app/libs/javacv.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1824ed7a180ee32aa57f5632a489c10aad8f1804">
+        <dex dex="/Users/yousirui/AndroidStudioProjects/Face/app/build/intermediates/pre-dexed/debug/javacv_b4ff616af96ca1ee9b4772b2d6f68afa9d2dd5c0.jar" />
+    </item>
+
+</items>
